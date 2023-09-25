@@ -11,16 +11,23 @@ white*/
     padding: 0px;        
 }
 
+
+
 body{
     background-color: #191835;
-    color: white;
+    color: white;     
+    width: 800px;
+    height: 100vh;    
+    margin: auto;   
 }
+
 
 
 
 header{
     background-color: #7876fd;
-    
+    height: 10%;
+    width: 100%;
 }
 
 main{
@@ -31,8 +38,35 @@ main{
     align-items: center;
     flex-direction: row;
     justify-content: space-evenly;
+           
+}
+
+section{
+    border: 5px solid #191835;
+    height: 90%; 
+    margin: 30px;    
+    
+}
+
+#sec1{
+    width: 30%;
+}
+
+#sec2{
+    width: 70%;
+}
+
+h1{    
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center; 
+    height: 100%; 
+    
 }
 
 footer{
     background-color: #7a78e6;
+    height: 10%;
+    width: 100%;
 }
