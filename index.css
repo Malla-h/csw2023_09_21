@@ -80,9 +80,17 @@ main{
 section{
     border: 5px solid #191835;
     border-radius: 10px;
-    height: 90%; 
+    height: 600px; 
     margin: 8px;    
+    transition: transform 0.2s;
     
+}
+
+@media (max-height: 875px){
+    section{
+        transform: scale(75%);
+        
+    }
 }
 
 #sec1{
